@@ -1,0 +1,159 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body.home {
+background: #0c73f2; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #0c73f2 49%, #f4b209 51%, #f4b209 51%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(49%,#0c73f2), color-stop(51%,#f4b209), color-stop(51%,#f4b209)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #0c73f2 49%,#f4b209 51%,#f4b209 51%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #0c73f2 49%,#f4b209 51%,#f4b209 51%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #0c73f2 49%,#f4b209 51%,#f4b209 51%); /* IE10+ */
+background: linear-gradient(135deg,  #0c73f2 49%,#f4b209 51%,#f4b209 51%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c73f2', endColorstr='#f4b209',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+body.char {
+    background: white url(../img/brian.jpg) no-repeat left top;
+    background-size: 100% auto;
+}
+body.peter {
+    background: white url(../img/peter1.png) no-repeat left top;
+    background-size: 100% auto;
+}
+body.stewie {
+    background: white url(../img/stewie-griffin-on-trike.gif) no-repeat left top;
+    background-size: 100% auto;
+}
+body.chris {
+    background: white url(../img/chris.png) no-repeat left top;
+    background-size: 100% auto;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+ol{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body.home ol li{
+    width:45%;
+    float:left;
+    text-align: center;
+    padding-bottom: 1em;
+}
+body.home ol li.right{
+    float:right;
+}
+body.home ol li img{
+    width:100%;
+}
+body.home ol li a{
+    opacity: 1;
+    background: none;
+    border:none;
+    color:white;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+div.hack { display: block; height: 300px; }
+body.home div.title img{
+    width: 60%;
+}
+body.home div.title{
+    text-align: center;
+}
+body.char ol li a{
+    color:black;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    background: white;
+    border: 5px solid #cccccc;
+    display: block;
+    opacity: 0.5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+body.peter ol li a{
+    color:black;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    background: white;
+    border: 5px solid #cccccc;
+    display: block;
+    opacity: 0.5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+body.stewie ol li a{
+    color:black;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    background: white;
+    border: 5px solid #cccccc;
+    display: block;
+    opacity: 0.5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+body.chris ol li a{
+    color:black;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    background: white;
+    border: 5px solid #cccccc;
+    display: block;
+    opacity: 0.5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+/* Portrait layout (default) */
+.app {
+}
+.app1 {
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+
+}
+
+
