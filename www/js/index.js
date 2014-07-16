@@ -38,9 +38,24 @@ var app = {
     
 };
 
+function getPhoneGapPath() {
+    var path = window.location.pathname;
+    path = path.substr( path, path.length - 10 );
+    return 'file://' + path;
+}
+
 function playsound (id)
 {
-    document.getElementById(id).play();
+    var atag = document.getElementById(id);
+    var mp3file = atag.getElementsByTagName('source')[0].src;
+    var mediapath = getPhoneGapPath() + mp3file;
+
+    console.log('MP3 file is ' + mp3file);
+    console.log('PG Path is ' + getPhoneGapPath());
+    console.log('MEDIA PATH is ' + mediapath);
+
+    var media = new Media(mp3file);
+    media.play();    
     //var audio = document.getElementById(id);
     //audio.addEventListener('touchstart', function() { audio.play(); }, false);
 }
