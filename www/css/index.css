@@ -47,6 +47,14 @@ body.chris {
     background: white url(../img/chris.png) no-repeat left top;
     background-size: 100% auto;
 }
+body.lois {
+    background: white url(../img/lois.png) no-repeat left top;
+    background-size: 100% auto;
+}
+body.meg {
+    background: white url(../img/meg.png) no-repeat left top;
+    background-size: 100% auto;
+}
 li{
     list-style: none;
     padding: 0;
@@ -144,6 +152,36 @@ body.chris ol li a{
     margin-bottom: 0.5em;
     text-align: center;
 }
+body.lois ol li a{
+    color:black;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    background: white;
+    border: 5px solid #cccccc;
+    display: block;
+    opacity: 0.5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+body.meg ol li a{
+    color:black;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    background: white;
+    border: 5px solid #cccccc;
+    display: block;
+    opacity: 0.5;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
 
 /* Portrait layout (default) */
 .app {
